@@ -4,4 +4,5 @@
     <color name="eggplant">#70435B</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="mauve">#E0B0FF</color>
 </resources>

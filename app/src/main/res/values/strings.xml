@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">GoalWeight</string>
+    <string name="app_name">Goal Weight</string>
     <string name="your_weight">Your weight</string>
     <string name="eg_1_50cm">eg. 1,50cm</string>
     <string name="your_height">Your height</string>
-    <string name="eg_70kg">eg.70</string>
+    <string name="eg_70kg">eg.70kg</string>
     <string name="calculate">Calculate</string>
     <string name="current_weight">Current weight</string>
     <string name="eg_80kg">eg. 80kg</string>
     <string name="goal_weight">Goal weight</string>
-    <string name="when_do_you_want_to_reach_it">When do you want to reach it</string>
+    <string name="when_do_you_want_to_reach_it">When do you want to reach it?</string>
 </resources>
