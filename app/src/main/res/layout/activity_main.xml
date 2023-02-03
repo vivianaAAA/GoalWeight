@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:paddingTop="50dp"
+        android:text="@string/your_weight"
+        android:textColor="@color/midnight"
+        android:textSize="15sp"  />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:autofillHints=""
+        android:hint="@string/eg_70kg"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="15dp"
+        android:paddingTop="50dp"
+        android:text="@string/your_height"
+        android:textColor="@color/midnight"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-black" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:autofillHints=""
+        android:hint="@string/eg_1_50cm"
+        android:inputType="numberDecimal"
+        android:padding="12dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="15dp"
+        android:paddingTop="50dp"
+        android:text="@string/goal_weight"
+        android:textColor="@color/midnight"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <EditText
+        android:id="@+id/gweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:autofillHints=""
+        android:hint="@string/eg_80kg"
+        android:inputType="numberDecimal"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/when_do_you_want_to_reach_it"
+        android:textColor="@color/midnight"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+
+
+        ></CalendarView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/calculate"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+
